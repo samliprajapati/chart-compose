@@ -37,11 +37,11 @@ export default function LineChartExample(props) {
       <Legend />
       <Line
         type="monotone"
-        dataKey="pv"
+        dataKey="amt"
         stroke="#8884d8"
         activeDot={{ r: 8 }}
       />
-      <Line type="monotone" dataKey="uv" stroke="#82ca9d" />
+
     </LineChart>
   );
 }

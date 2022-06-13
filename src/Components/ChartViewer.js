@@ -4,7 +4,7 @@ import LineChartExample from "./Chart/LineChartExample";
 import PieChartExample from "./Chart/PieChartExample";
 
 function ChartViewer(props) {
-  console.log(props.selectedChart.chartName === "Bar Chart")
+  // console.log(props.selectedChart.chartName === "Bar Chart")
 
   return (
 

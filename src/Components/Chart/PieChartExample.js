@@ -13,7 +13,7 @@ const data01 = [
 
 
 export default function PieChartExample(props) {
-  console.log(props)
+  // console.log(props)
   if (!props.data.length) {
     return (
       <p>select checkbox to show chart</p>
@@ -22,7 +22,7 @@ export default function PieChartExample(props) {
   return (
     <PieChart width={500} height={400}>
       <Pie
-        dataKey="value"
+        dataKey="amt"
         isAnimationActive={false}
         data={props.data}
         cx={200}
